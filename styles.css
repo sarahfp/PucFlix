@@ -1,0 +1,98 @@
+h1{
+    text-align: center;
+}
+
+.titulo{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.meio-page{
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.entrevistas{
+    margin-top: 200px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.dropdown{
+    float: right;
+    margin-right: 3%;
+}
+
+.poster{
+    width: 24%;
+    height: 400px;
+}
+
+.icon{
+    width: 15%;
+    height: 60px;
+}
+
+.new{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+.imagempesquisa{
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin-right: 25px;
+}
+
+.subtitulo {
+    color: #7b7878;
+    font-size: 13px;
+}
+
+.tituloPagina{
+    color:black;
+    font-size:15px;
+    font-weight:bold;
+    display: block;
+    text-transform: uppercase;
+  }
+
+.video-lançamento{
+    margin-top: 60px;
+    margin-left: 80px;
+    width: 40%;
+    float: left;
+}
+
+.sinopse-lançamento{
+    margin-top: 60px;
+    width: 45%;
+    float: left;
+}
+
+#carouselLançamento{
+    height: 560px;
+}
+
+.checked {
+    color: orange;
+  }
+
+  #footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+ }
+
+ #footer {
+    bottom: 0%;
+    position: fixed;
+}
