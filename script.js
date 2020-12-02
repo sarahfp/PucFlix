@@ -8,7 +8,6 @@ function pesquisar() {
             if (xhr.readyState == 4) {
                 if (xhr.status = 200) {
                     resultado = JSON.parse(xhr.response);
-                    console.log(resultado)
                     document.getElementById('principal').style.display = "none";
                     document.getElementById('pesquisa').style.display = "block";
                     if (resultado.results.length > 0) {
@@ -49,4 +48,11 @@ function buscarLink(id) {
         }
     }
     xhr.send();
+}
+
+function voltarPagina(id){
+    if(id == 1){
+        document.getElementById('principal').style.display = "block";
+        document.getElementById('pesquisa').style.display = "none";
+    }
 }
